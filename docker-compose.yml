@@ -3,6 +3,6 @@ services:
   git-deps:
     build: .
     volumes:
-     - .:/src
+     - /Users/ivanjensen/Work/githome/master_ep8_docker33333_mysql_5.7rc/ep-commerce:/src
     ports:
-     - "5000:5000"
+     - "5100:5000"
